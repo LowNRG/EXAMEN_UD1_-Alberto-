@@ -17,8 +17,9 @@ public class Examen {
 
             }
                 
-        }catch (NumberFormatException e) {}
-        System.out.println ("Error introducir un valor valido");
+        }catch (NumberFormatException e) {
+            System.out.println ("Error introducir un valor valido");
+        }
 
 
     }
